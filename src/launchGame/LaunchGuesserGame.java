@@ -94,7 +94,7 @@ class Umpire {
 
 
 
-public class LaunchGame {
+public class LaunchGuesserGame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
