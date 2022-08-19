@@ -26,6 +26,8 @@ public class LaunchStringPrograms {
 		findDuplicateChar("Abhijeet Singh");
 //		/7. WAP to count the number of Vowels and Consonants of a String value.
 		countAlphaConsonant("Abhijeet123");
+		//8. WAP to count number of special characters.
+		countSpecialChar("ab12AA@#$ ");
 		
 		
 	}
@@ -172,6 +174,13 @@ public class LaunchStringPrograms {
 		}
 		System.out.println("Number of Vowels = " + vow + "\nNumber of Consonants = "+ con);
 
+	}
+	
+	public static void countSpecialChar(String str) {
+		str=str.replaceAll("[a-z,A-Z,0-9,\s]", "");
+		System.out.println("Toatal special char  count: "+ str.length());
+		
+		
 	}
 
 }
