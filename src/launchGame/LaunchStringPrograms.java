@@ -18,7 +18,7 @@ public class LaunchStringPrograms {
 		//2. WAP to reverse a sentence while preserving the position. Input : “Think Twice” Output :“kniht eciwt”
 		System.out.println(revStrWord("Think Twice"));
 		//3. WAP to check if the String is Anagram or not.
-		//6. WAP to sort a String Alphabetically. Bubble short logic used in the checkAnagram program
+		//6. WAP to sort a String Alphabetically==>> Bubble short logic used in the checkAnagram program
 		checkAnagram("noma", "MOna");
 		//4. WAP to check if the String is a Pangram or not.
 		checkPangram("The quick brown fox jumps over the lazy doG12");
